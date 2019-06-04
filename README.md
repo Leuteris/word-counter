@@ -38,11 +38,11 @@ Sample response:
 }`
 ### How to run
 
-Build the project and run tests with the following command:
+Build the project and run tests using the following command:
 `mvn clean install`
 
 and run the application:
 `mvn spring-boot:run`
 
-######Technologies used:
+Technologies used:
 Spring Boot, Java 8, Maven, Intellij, jsoup, Spring Test
