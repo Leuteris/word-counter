@@ -25,7 +25,7 @@ public class WordCountResponse {
 //22
     public void setWords(long words) {
         this.words = words;
-    }
+    }//33
 
     public BigDecimal getEurosAmount() {
         return eurosAmount;
