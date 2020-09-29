@@ -35,3 +35,5 @@ public class WordCountResponse {
         this.eurosAmount = eurosAmount;
     }
 }
+//2
+//3
