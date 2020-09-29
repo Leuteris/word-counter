@@ -18,11 +18,13 @@ public class WordController {
     @Autowired
     WordService wordService;
 
+    //
     @PostMapping("/count")
     public WordCountResponse count(@Valid @RequestBody WordCountRequest request) {
         return wordService.countWords(request.getText());
     }
 
+    //test
 
     @PostMapping("/countHtml")
     public WordCountResponse countHtml(@Valid @RequestBody WordCountRequest request) {
