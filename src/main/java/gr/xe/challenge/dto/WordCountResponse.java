@@ -1,5 +1,5 @@
 package gr.xe.challenge.dto;
-
+//33
 import com.fasterxml.jackson.annotation.JsonInclude;
 
 import java.math.BigDecimal;
