@@ -22,7 +22,7 @@ public class WordCountResponse {
     public long getWords() {
         return words;
     }
-
+//22
     public void setWords(long words) {
         this.words = words;
     }
