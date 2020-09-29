@@ -3,7 +3,7 @@ package gr.xe.challenge.dto;
 import com.fasterxml.jackson.annotation.JsonInclude;
 
 import java.math.BigDecimal;
-
+//1
 public class WordCountResponse {
 
     private String text;
