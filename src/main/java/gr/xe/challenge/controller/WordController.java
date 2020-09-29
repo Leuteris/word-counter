@@ -14,7 +14,7 @@ import javax.validation.Valid;
 @RestController
 @RequestMapping("/word")
 public class WordController {
-
+//
     @Autowired
     WordService wordService;
 
