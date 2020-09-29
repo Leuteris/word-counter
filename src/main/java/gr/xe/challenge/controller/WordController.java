@@ -10,23 +10,21 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.validation.Valid;
-//TEST
-@RestController//22
+
+@RestController
 @RequestMapping("/word")
-public class WordController {//s
+public class WordController {
 //
     @Autowired
-    WordService wordService;//
+    WordService wordService;
 
     @PostMapping("/count")
     public WordCountResponse count(@Valid @RequestBody WordCountRequest request) {
-        return wordService.countWords(request.getText());//
+        return wordService.countWords(request.getText());
     }
-//
 
-    @PostMapping("/countHtml")//
+    @PostMapping("/countHtml")
     public WordCountResponse countHtml(@Valid @RequestBody WordCountRequest request) {
         return wordService.countWordsFromHtml(request.getText());
     }
-}
-//TEST3 3//
+}//
