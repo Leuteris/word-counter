@@ -23,6 +23,7 @@ public class WordController {
         return wordService.countWords(request.getText());//
     }
 
+    //test 2
     @PostMapping("/countHtml")
     public WordCountResponse countHtml(@Valid @RequestBody WordCountRequest request) {
         return wordService.countWordsFromHtml(request.getText());
