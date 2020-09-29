@@ -10,3 +10,6 @@ public class JavaChallengeApplication {
 		SpringApplication.run(JavaChallengeApplication.class, args);
 	}
 }
+
+
+//test
