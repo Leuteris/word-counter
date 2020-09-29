@@ -13,7 +13,7 @@ public class WordCountResponse {
 
     public String getText() {
         return text;
-    }
+    }//2
 
     public void setText(String text) {
         this.text = text;
