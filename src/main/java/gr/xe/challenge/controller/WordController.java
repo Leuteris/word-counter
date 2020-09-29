@@ -14,13 +14,13 @@ import javax.validation.Valid;
 @RestController
 @RequestMapping("/word")
 public class WordController {
-//
+
     @Autowired
     WordService wordService;
 
-    @PostMapping("/count")//
+    @PostMapping("/count")
     public WordCountResponse count(@Valid @RequestBody WordCountRequest request) {
-        return wordService.countWords(request.getText());//
+        return wordService.countWords(request.getText());
     }
 
 
@@ -28,7 +28,4 @@ public class WordController {
     public WordCountResponse countHtml(@Valid @RequestBody WordCountRequest request) {
         return wordService.countWordsFromHtml(request.getText());
     }
-}//
-
-//
-//
+}
