@@ -29,7 +29,7 @@ public class WordService {
     }
 //test 5
     public WordCountResponse countWordsFromHtml(String html) {
-        return countWords(Jsoup.parse(html).text());
+        return countWords(Jsoup.parse(html).text());//
     }
 
     private BigDecimal matchEuroAmount(String text) {
