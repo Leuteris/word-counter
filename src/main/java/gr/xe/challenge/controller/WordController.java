@@ -16,7 +16,7 @@ import javax.validation.Valid;
 public class WordController {//s
 //
     @Autowired
-    WordService wordService;
+    WordService wordService;//
 
     @PostMapping("/count")
     public WordCountResponse count(@Valid @RequestBody WordCountRequest request) {
