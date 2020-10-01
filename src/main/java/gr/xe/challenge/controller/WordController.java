@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.validation.Valid;
 //TEST
-@RestController
+@RestController//22
 @RequestMapping("/word")
 public class WordController {
 //
