@@ -24,7 +24,7 @@ public class WordService {
         WordCountResponse response = new WordCountResponse();
         response.setEurosAmount(matchEuroAmount(text));
         response.setText(text);
-        response.setWords(count);
+        response.setWords(count);//
         return response;
     }
 //test 5
@@ -32,7 +32,7 @@ public class WordService {
         return countWords(Jsoup.parse(html).text());
     }
 
-    private BigDecimal matchEuroAmount(String text) {
+    private BigDecimal matchEuroAmount(String text) {//
         Matcher euroMatcher = euroPattern.matcher(text);
         if (euroMatcher.find()) {
             return Utils.parseMoney(euroMatcher.group(1));
