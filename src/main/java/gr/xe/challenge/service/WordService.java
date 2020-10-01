@@ -9,7 +9,7 @@ import java.math.BigDecimal;
 import java.util.Arrays;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
+//test
 @Service
 public class WordService {
 
@@ -27,7 +27,7 @@ public class WordService {
         response.setWords(count);
         return response;
     }
-
+//test 5
     public WordCountResponse countWordsFromHtml(String html) {
         return countWords(Jsoup.parse(html).text());
     }
