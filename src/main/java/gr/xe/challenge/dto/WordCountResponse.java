@@ -7,7 +7,7 @@ import java.math.BigDecimal;
 public class WordCountResponse {
 //commit1
     private String text;
-    private long words;
+    private long words;//commit2
     @JsonInclude(JsonInclude.Include.NON_NULL)
     private BigDecimal eurosAmount;
 
