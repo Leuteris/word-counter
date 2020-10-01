@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.validation.Valid;
-
-@RestController
+//TEST
+@RestController//22
 @RequestMapping("/word")
 public class WordController {
 //
@@ -29,3 +29,4 @@ public class WordController {
         return wordService.countWordsFromHtml(request.getText());
     }
 }
+//TEST3 3
