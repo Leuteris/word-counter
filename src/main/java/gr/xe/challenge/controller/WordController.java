@@ -16,17 +16,17 @@ import javax.validation.Valid;
 public class WordController {//s
 //
     @Autowired
-    WordService wordService;
+    WordService wordService;//
 
     @PostMapping("/count")
     public WordCountResponse count(@Valid @RequestBody WordCountRequest request) {
         return wordService.countWords(request.getText());//
     }
-
+//
 
     @PostMapping("/countHtml")//
     public WordCountResponse countHtml(@Valid @RequestBody WordCountRequest request) {
         return wordService.countWordsFromHtml(request.getText());
     }
 }
-//TEST3 3
+//TEST3 3//
