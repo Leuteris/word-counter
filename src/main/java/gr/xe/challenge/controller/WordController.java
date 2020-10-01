@@ -20,11 +20,11 @@ public class WordController {//s
 
     @PostMapping("/count")
     public WordCountResponse count(@Valid @RequestBody WordCountRequest request) {
-        return wordService.countWords(request.getText());
+        return wordService.countWords(request.getText());//
     }
 
 
-    @PostMapping("/countHtml")
+    @PostMapping("/countHtml")//
     public WordCountResponse countHtml(@Valid @RequestBody WordCountRequest request) {
         return wordService.countWordsFromHtml(request.getText());
     }
