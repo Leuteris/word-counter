@@ -5,7 +5,7 @@ import com.fasterxml.jackson.annotation.JsonInclude;
 import java.math.BigDecimal;
 //1
 public class WordCountResponse {
-
+//commit1
     private String text;
     private long words;
     @JsonInclude(JsonInclude.Include.NON_NULL)
