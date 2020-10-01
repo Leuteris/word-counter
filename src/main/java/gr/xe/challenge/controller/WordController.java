@@ -30,7 +30,7 @@ public class WordController {
 
 
     @PostMapping("/countHtml")
-    public WordCountResponse countHtml(@Valid @RequestBody WordCountRequest request) {
+    public WordCountResponse countHtml(@Valid @RequestBody WordCountRequest request) {//
         return wordService.countWordsFromHtml(request.getText());
     }
 }
