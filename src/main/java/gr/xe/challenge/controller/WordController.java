@@ -16,7 +16,7 @@ import javax.validation.Valid;
 public class WordController {
 //
     @Autowired
-    WordService wordService;
+    WordService wordService;..
 
 
     //test1
