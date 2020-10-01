@@ -13,7 +13,7 @@ import javax.validation.Valid;
 //TEST
 @RestController//22
 @RequestMapping("/word")
-public class WordController {
+public class WordController {//s
 //
     @Autowired
     WordService wordService;
