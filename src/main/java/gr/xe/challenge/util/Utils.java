@@ -11,8 +11,8 @@ public class Utils {
         NumberFormat nf = NumberFormat.getInstance(Locale.GERMAN);
         try {
             return new BigDecimal(nf.parse(amount).toString());
-        } catch (ParseException e) {
-            System.out.println("Error Can not parse the amount" + e);
+        } catch (ParseException e) {///
+            System.out.println("Error Can not parse the amount" + e);///
             return null;
         }
     }
